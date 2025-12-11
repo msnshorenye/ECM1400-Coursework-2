@@ -40,7 +40,6 @@ Components.py
 
    3.3 Explanation
    This can be used before a turn in a game loop to allow players to play one after the other.
-   
 
 5. Legal_move()
 
