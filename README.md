@@ -1,3 +1,10 @@
+---
+title: "ECM1400-Coursework-2"
+author: "Matthew Shore-Nye"
+version: "3.0"
+product: "Othello/reversi game"
+---
+
 # ECM1400-Coursework-2
 
 Module 1: Components.py
