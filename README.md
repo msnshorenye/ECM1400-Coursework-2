@@ -35,6 +35,23 @@ Components.py
 
    <img width="410" height="505" alt="image" src="https://github.com/user-attachments/assets/6d97eeb2-7aee-4d93-ba7c-ae94ecf1d7ad" />
 
+   3.2 Code function
+   Accepts a players colour and switches it to the opposite.
+
+   3.3 Explanation
+   This can be used before a turn in a game loop to allow players to play one after the other.
+   
+
+5. Legal_move()
+
+
+   5.1 flow chart
+
+     <img width="959" height="1152" alt="image" src="https://github.com/user-attachments/assets/41f56a98-986b-4ebb-97af-b3328016f5fc" />
+     <img width="892" height="988" alt="image" src="https://github.com/user-attachments/assets/27c9b9ed-844f-4708-a7b8-19f81a86db67" />
+
+
+   
 
    
    
