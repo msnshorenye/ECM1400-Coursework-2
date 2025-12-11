@@ -15,7 +15,7 @@ Components.py
    
    I chose to make a 2d array and then use a nested loop then iteration to pick out the exact coordinate that start with the intial othello game (the middle 4). This sets up the board to be interacted with if you make the output of the function a variable.
 
-   2. print_board()
+2. print_board()
 
    
 
