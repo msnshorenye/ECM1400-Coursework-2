@@ -1,6 +1,8 @@
 # ECM1400-Coursework-2
 
-Components.py
+Module 1: Components.py
+
+
 1. intialise_board()
 
    1.1 flow chart
@@ -41,16 +43,29 @@ Components.py
    3.3 Explanation
    This can be used before a turn in a game loop to allow players to play one after the other.
 
-5. Legal_move()
+4. Legal_move()
 
 
-   5.1 flow chart
+   4.1 flow chart
 
      <img width="959" height="1152" alt="image" src="https://github.com/user-attachments/assets/41f56a98-986b-4ebb-97af-b3328016f5fc" />
      <img width="892" height="988" alt="image" src="https://github.com/user-attachments/assets/27c9b9ed-844f-4708-a7b8-19f81a86db67" />
 
 
-   
+ 4.2 Code function 
+   It takes the current players entered coordinates checks if that it is a valide othello move in any direction and changes the colour of the coordinates in that direction if it is valid overflank. It returns a boolean that indicates whether the coordinate is a legal move.
+
+4.3 Explanation
+I chose this approach as it takes the exact coordinates possible and makes sure they are the only ones appended and that it works for every direction which should be overflanked. The use of a legal turn boolean also makes it useful in telling whether the current player has made a valid move.
+
+Module 2: game_engine.py
+
+1. cli_coords_input()
+
+   1.1 flow chart
+
+   <img width="264" height="636" alt="image" src="https://github.com/user-attachments/assets/d3acc4e4-e765-4945-bd54-0080c0aa22b5" />
+
 
    
    
