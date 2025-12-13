@@ -74,12 +74,73 @@ Module 2: game_engine.py
    <img width="264" height="636" alt="image" src="https://github.com/user-attachments/assets/d3acc4e4-e765-4945-bd54-0080c0aa22b5" />
 
 2. check_win()
+ 2.1 flow chart
+
+   <img width="339" height="622" alt="image" src="https://github.com/user-attachments/assets/81e6f2ea-f365-4b4d-bc58-15282caa7c15" />
 
 
-3. Simple_game_loop()
+4. Simple_game_loop()
+   4.1 flow chart
+
+   
+   <img width="424" height="745" alt="Screenshot 2025-12-13 161050" src="https://github.com/user-attachments/assets/f2c3cfea-52c6-401c-b595-3010a2fd684e" />
+<img width="472" height="552" alt="Screenshot 2025-12-13 161056" src="https://github.com/user-attachments/assets/810e9557-5c35-4098-8482-f246c789efae" />
+
+5.check_board_full 
+
+
+5.1 flowchart
+
+
+<img width="332" height="651" alt="image" src="https://github.com/user-attachments/assets/aab8e076-b8b0-4deb-af9f-8b78b2c605c7" />
+
+
+
+6. Check_any_possible_moves() 
+   6.1 flowchart
+
+
+   <img width="420" height="707" alt="image" src="https://github.com/user-attachments/assets/b5c2e9a0-5171-4ed5-8ce0-affa29da5769" />
+   <img width="415" height="730" alt="image" src="https://github.com/user-attachments/assets/d158f195-a85b-4771-85c4-6be6ac28c08e" />
+
+
+
+7. Ai_player_Move
+
+
+8. Main program
+ 
+   8.1 flowchart
+
+   <img width="144" height="302" alt="image" src="https://github.com/user-attachments/assets/cfde6234-439c-4704-87d8-6634b8fcbb20" />
+
+
+Module: flask_server_ai_player.py
+
+
+1. index()
+
+   1.1 flowchart
+
+   <img width="182" height="340" alt="image" src="https://github.com/user-attachments/assets/8894d2f7-4143-493c-998e-9de83bef9927" />
+
+   
+2. get_move()
+
+   2.1 flowchart
+
+       <img width="548" height="681" alt="image" src="https://github.com/user-attachments/assets/08331765-8c95-426b-b85e-433046f418cc" />
+        <img width="601" height="748" alt="image" src="https://github.com/user-attachments/assets/29ba813a-e334-4c76-9111-b94387b83e61" />
+
+
+4.  save_board()
+
+5. Load_board()
+
+6. main program
+   
    
 
-
-5. Check_any_possible_moves()
+   
    
       
