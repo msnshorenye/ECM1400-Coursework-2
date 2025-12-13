@@ -73,7 +73,13 @@ Module 2: game_engine.py
 
    <img width="264" height="636" alt="image" src="https://github.com/user-attachments/assets/d3acc4e4-e765-4945-bd54-0080c0aa22b5" />
 
+2. check_win()
 
+
+3. Simple_game_loop()
    
+
+
+5. Check_any_possible_moves()
    
       
