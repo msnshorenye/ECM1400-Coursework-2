@@ -140,7 +140,7 @@ This function was more of a debugging function while I was still developing the 
 
    6.2 Code Function It calls the main game loop function and then takes the finished game board once the game has been played and puts it through the check win function to output the winner finishing the game.
 
-   6.3 This is the code that actually runs the game when the python module is run
+   6.3 This is the code that actually runs the instance of the  game the players actually play when the python module is run
 
 
 Module: flask_server_ai_player.py
