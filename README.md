@@ -123,9 +123,9 @@ This function was more of a debugging function while I was still developing the 
    <img width="415" height="730" alt="image" src="https://github.com/user-attachments/assets/d158f195-a85b-4771-85c4-6be6ac28c08e" />
    (The flowchart shows the logic for every nested loop for each coordinate in the game board)
 
-    5.2 Code Function This function checks every space in a nested loop with a given players colour checks if it is empty then checks whether in each direction their is 
+    5.2 Code Function This function checks every space in a nested loop with a given players colour checks if it is empty then checks whether in each direction there is an opposite colour and then there own colour without any empty spaces in between the boolean returned is set to true else it is False and there arent more moves available for this paticular player at t
 
-    5.3  
+    5.3  This is used in many other functions like the game loop and get move to check that the game continue as if there are no available moves for both players
 
 
 5. Ai_player_Move
@@ -138,7 +138,9 @@ This function was more of a debugging function while I was still developing the 
 
    <img width="144" height="302" alt="image" src="https://github.com/user-attachments/assets/cfde6234-439c-4704-87d8-6634b8fcbb20" />
 
-   6.2 Code Function It calls the main game loop function 
+   6.2 Code Function It calls the main game loop function and then takes the finished game board once the game has been played and puts it through the check win function to output the winner finishing the game.
+
+   6.3 This is the code that actually runs the game when the python module is run
 
 
 Module: flask_server_ai_player.py
