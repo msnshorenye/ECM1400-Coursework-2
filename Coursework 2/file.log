@@ -1,0 +1,105 @@
+2025-12-13 17:14:03,723 DEBUG A DEBUG Message
+2025-12-13 17:14:03,723 INFO An INFO
+2025-12-13 17:14:03,723 WARNING A WARNING
+2025-12-13 17:14:03,723 ERROR An error
+2025-12-13 17:14:03,723 CRITICAL A message of CRITICAL severity
+2025-12-13 17:14:06,032 ERROR Wrong data type
+Traceback (most recent call last):
+  File "c:\Users\jshor\Downloads\Coursework 2\game_engine.py", line 23, in cli_coords_input
+    x = int(input('enter the x coordinate you want'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'a'
+2025-12-13 17:14:53,143 DEBUG A DEBUG Message
+2025-12-13 17:14:53,143 INFO An INFO
+2025-12-13 17:14:53,143 WARNING A WARNING
+2025-12-13 17:14:53,143 ERROR An error
+2025-12-13 17:14:53,143 ERROR an exception
+NoneType: None
+2025-12-13 17:14:53,143 CRITICAL A message of CRITICAL severity
+2025-12-13 17:14:55,425 ERROR Wrong data type
+Traceback (most recent call last):
+  File "c:\Users\jshor\Downloads\Coursework 2\game_engine.py", line 25, in cli_coords_input
+    x = int(input('enter the x coordinate you want'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'a'
+2025-12-13 17:24:46,568 DEBUG A DEBUG Message
+2025-12-13 17:24:46,570 INFO An INFO
+2025-12-13 17:24:46,570 WARNING A WARNING
+2025-12-13 17:24:46,570 ERROR An error
+2025-12-13 17:24:46,570 ERROR an exception
+NoneType: None
+2025-12-13 17:24:46,570 CRITICAL A message of CRITICAL severity
+2025-12-13 17:34:25,137 ERROR Wrong data type
+Traceback (most recent call last):
+  File "c:\Users\jshor\Downloads\Coursework 2\game_engine.py", line 25, in cli_coords_input
+    try: #in case
+           ^^^^^^^
+ValueError: invalid literal for int() with base 10: '& C:/Users/jshor/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/jshor/Downloads/Coursework 2/game_engine.py"'
+2025-12-13 17:34:27,759 DEBUG A DEBUG Message
+2025-12-13 17:34:27,760 INFO An INFO
+2025-12-13 17:34:27,760 WARNING A WARNING
+2025-12-13 17:34:27,760 ERROR An error
+2025-12-13 17:34:27,760 ERROR an exception
+NoneType: None
+2025-12-13 17:34:27,760 CRITICAL A message of CRITICAL severity
+2025-12-13 17:36:13,489 ERROR Wrong data type
+Traceback (most recent call last):
+  File "c:\Users\jshor\Downloads\Coursework 2\game_engine.py", line 26, in cli_coords_input
+    x = int(input('enter the x coordinate you want'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '& C:/Users/jshor/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/jshor/Downloads/Coursework 2/game_engine.py"'
+2025-12-13 17:36:16,683 DEBUG A DEBUG Message
+2025-12-13 17:36:16,683 INFO An INFO
+2025-12-13 17:36:16,683 WARNING A WARNING
+2025-12-13 17:36:16,683 ERROR An error
+2025-12-13 17:36:16,684 ERROR an exception
+NoneType: None
+2025-12-13 17:36:16,684 CRITICAL A message of CRITICAL severity
+2025-12-13 17:41:41,957 ERROR Wrong data type
+Traceback (most recent call last):
+  File "c:\Users\jshor\Downloads\Coursework 2\game_engine.py", line 26, in cli_coords_input
+    x = int(input('enter the x coordinate you want'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+2025-12-13 17:41:44,358 DEBUG A DEBUG Message
+2025-12-13 17:41:44,358 INFO An INFO
+2025-12-13 17:41:44,358 WARNING A WARNING
+2025-12-13 17:41:44,358 ERROR An error
+2025-12-13 17:41:44,358 ERROR an exception
+NoneType: None
+2025-12-13 17:41:44,358 CRITICAL A message of CRITICAL severity
+2025-12-13 17:41:52,885 INFO darks coordinate given [3, 2]
+2025-12-13 20:33:23,758 ERROR Wrong data type
+Traceback (most recent call last):
+  File "c:\Users\jshor\Downloads\Coursework 2\game_engine.py", line 26, in cli_coords_input
+    x = int(input('enter the x coordinate you want'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '& C:/Users/jshor/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/jshor/Downloads/Coursework 2/flask_server_ai_player.py"'
+2025-12-13 20:35:07,821 DEBUG A DEBUG Message
+2025-12-13 20:35:07,822 INFO An INFO
+2025-12-13 20:35:07,822 WARNING A WARNING
+2025-12-13 20:35:07,822 ERROR An error
+2025-12-13 20:35:07,822 ERROR an exception
+NoneType: None
+2025-12-13 20:35:07,822 CRITICAL A message of CRITICAL severity
+2025-12-13 20:35:15,876 INFO darks coordinate given [3, 2]
+2025-12-13 20:36:07,485 INFO darks coordinate given [3, 5]
+2025-12-13 20:57:08,803 ERROR Wrong data type
+Traceback (most recent call last):
+  File "c:\Users\jshor\Downloads\Coursework 2\game_engine.py", line 26, in cli_coords_input
+    x = int(input('enter the x coordinate you want'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '& C:/Users/jshor/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/jshor/Downloads/Coursework 2/flask server.py"'
+2025-12-13 21:49:11,527 DEBUG A DEBUG Message
+2025-12-13 21:49:11,527 INFO An INFO
+2025-12-13 21:49:11,527 WARNING A WARNING
+2025-12-13 21:49:11,527 ERROR An error
+2025-12-13 21:49:11,527 ERROR an exception
+NoneType: None
+2025-12-13 21:49:11,527 CRITICAL A message of CRITICAL severity
+2025-12-13 21:49:13,930 ERROR Wrong data type
+Traceback (most recent call last):
+  File "c:\Users\jshor\Downloads\Coursework 2\game_engine.py", line 26, in cli_coords_input
+    x = int(input('enter the x coordinate you want'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'a'
