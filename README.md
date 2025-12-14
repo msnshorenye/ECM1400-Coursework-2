@@ -165,9 +165,10 @@ Module: flask_server_ai_player.py
    <img width="182" height="340" alt="image" src="https://github.com/user-attachments/assets/8894d2f7-4143-493c-998e-9de83bef9927" />
 
 
-    1.2 Code Function Intialises a board
+    1.2 Code Function Intialises a board and uses that in the render of the template. When the webpage is opended the template is rendered with a starting game board
+   1.3 This index function loads up the page intially so that the user can interact with the tile buttons and play their cards and start the game on a web based GUI.
    
-2. get_move()
+3. get_move()
 
    2.1 flowchart
 <img width="548" height="681" alt="Screenshot 2025-12-13 235514" src="https://github.com/user-attachments/assets/d1e5dff3-bba7-46f4-8876-0e269594a79d" />
@@ -182,6 +183,8 @@ Module: flask_server_ai_player.py
 
     <img width="556" height="739" alt="image" src="https://github.com/user-attachments/assets/71149f34-4446-45ae-88e0-31dd9105dc7e" />
 
+    4.2 Code function On click it sends the current board in a json format return {board: the board} and then it is saved as an item in javascript local storage not a json file as a file is not able to be loaded into 
+ 
 
 5. Load_board()
    
@@ -190,7 +193,11 @@ Module: flask_server_ai_player.py
    <img width="293" height="537" alt="image" src="https://github.com/user-attachments/assets/88017fbc-600b-446d-b8e7-d17dab6184f8" />
    <img width="567" height="537" alt="image" src="https://github.com/user-attachments/assets/1a6fb0e6-0d9c-41a7-95f6-06ddcd27ed45" />
 
+   5.2 Code Function
+      Gets the saved plain text version saved in the template converts it into a useable format
 
+   5.3 Intially I tried to use Node.js to write and save to files but reading and writing was not accessible for the website GUI. I had to instead Use Jsonify to save the string in Local storage (Not just a plain Json file thats accessed through Node.js a Json  then instead of Node,js use text with a json header
+   The html has to be updated to the current one with the board once the text has been
 
 
    
