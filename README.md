@@ -174,9 +174,9 @@ Module: flask_server_ai_player.py
 <img width="548" height="681" alt="Screenshot 2025-12-13 235514" src="https://github.com/user-attachments/assets/d1e5dff3-bba7-46f4-8876-0e269594a79d" />
 <img width="601" height="748" alt="Screenshot 2025-12-13 235553" src="https://github.com/user-attachments/assets/000319ed-461e-43ee-bd6a-067ba196800b" />
 
-2.2 Code function It gets the url on the tile button click and request the boards X and y values from that tile It uses those coordinates
+2.2 Code function It gets the url on the tile button click and request the boards X and y values from that tile It uses those coordinates to play the players turn with legal turn 
 
-2.3 It plays the game with the coordinates the user has clicked on then it plays the AI players turn If both cant play the game ends. This means both the player and the ai 
+2.3 It plays the game with the coordinates the user has clicked on then it plays the AI players turn If both cant play the game ends. This means both the player and the ai play a turn on one click. 
 
 4.  save_board()
 
