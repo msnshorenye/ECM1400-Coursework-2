@@ -73,46 +73,72 @@ Module 2: game_engine.py
 
    <img width="264" height="636" alt="image" src="https://github.com/user-attachments/assets/d3acc4e4-e765-4945-bd54-0080c0aa22b5" />
 
-2. check_win()
+   1.2 code function Takes the players input for the two coordinates and puts them into a list and returns that list
+
+   1.3 Its designed this way so that it can be passed as a single parameter and its output can be put straight into the legal move function. 
+
+3. check_win()
  2.1 flow chart
 
    <img width="339" height="622" alt="image" src="https://github.com/user-attachments/assets/81e6f2ea-f365-4b4d-bc58-15282caa7c15" />
 
 
-4. Simple_game_loop()
-   4.1 flow chart
+  2.2 Code function: This function iterates through every space on the finished game board after the game has been played and checks if spaces are black or white and adds them to a counter for each. The counter with highest number is the winner and the function will return a winning message for the player with the highest counter
+
+  2.3 Explanation: This function is written so that a winner is calculated and can be outputted to complete the requirements of the game
+
+  
+
+3. Simple_game_loop()
+   3.1 flow chart
 
    
    <img width="424" height="745" alt="Screenshot 2025-12-13 161050" src="https://github.com/user-attachments/assets/f2c3cfea-52c6-401c-b595-3010a2fd684e" />
 <img width="472" height="552" alt="Screenshot 2025-12-13 161056" src="https://github.com/user-attachments/assets/810e9557-5c35-4098-8482-f246c789efae" />
 
-5.check_board_full 
+   3.2 Code Function: It Allows the player to take turns placing discs until conditions are met which means no more counters are able to be placed; It loops between each player until a move cant be played. It returns the winning board function to be checked through 
+
+   3.3 Explanation This allows for a text based coordinate input system which runs the entirety of all in one function which streamlines the main program to incredibly simple code
+
+4.check_board_full 
 
 
-5.1 flowchart
+4.1 flowchart
 
 
 <img width="332" height="651" alt="image" src="https://github.com/user-attachments/assets/aab8e076-b8b0-4deb-af9f-8b78b2c605c7" />
 
+4.2 Code Function 
+Iterates through each space in the board in a nested board to check if there is any availavble spaces. It returns False if there are none and True if there is 
+
+4.3 Explanation
+This function was more of a debugging function while I was still developing the Check_any_possible_move and wanted to test playing through full games which wouldn't haven't ended with a winner otherwie.
 
 
-6. Check_any_possible_moves() 
-   6.1 flowchart
+5. Check_any_possible_moves() 
+   5.1 flowchart
 
 
    <img width="420" height="707" alt="image" src="https://github.com/user-attachments/assets/b5c2e9a0-5171-4ed5-8ce0-affa29da5769" />
    <img width="415" height="730" alt="image" src="https://github.com/user-attachments/assets/d158f195-a85b-4771-85c4-6be6ac28c08e" />
+   (The flowchart shows the logic for every nested loop for each coordinate in the game board)
+
+    5.2 Code Function This function checks every space in a nested loop with a given players colour checks if it is empty then checks whether in each direction their is 
+
+    5.3  
 
 
+5. Ai_player_Move
 
-7. Ai_player_Move
 
-
-8. Main program
+6. Main program
+    
  
-   8.1 flowchart
+   6.1 flowchart
 
    <img width="144" height="302" alt="image" src="https://github.com/user-attachments/assets/cfde6234-439c-4704-87d8-6634b8fcbb20" />
+
+   6.2 Code Function It calls the main game loop function 
 
 
 Module: flask_server_ai_player.py
@@ -128,16 +154,29 @@ Module: flask_server_ai_player.py
 2. get_move()
 
    2.1 flowchart
+<img width="548" height="681" alt="Screenshot 2025-12-13 235514" src="https://github.com/user-attachments/assets/d1e5dff3-bba7-46f4-8876-0e269594a79d" />
+<img width="601" height="748" alt="Screenshot 2025-12-13 235553" src="https://github.com/user-attachments/assets/000319ed-461e-43ee-bd6a-067ba196800b" />
 
-       <img width="548" height="681" alt="image" src="https://github.com/user-attachments/assets/08331765-8c95-426b-b85e-433046f418cc" />
-        <img width="601" height="748" alt="image" src="https://github.com/user-attachments/assets/29ba813a-e334-4c76-9111-b94387b83e61" />
 
 
 4.  save_board()
 
-5. Load_board()
+   
+    4.1 Flowchart
 
-6. main program
+    <img width="556" height="739" alt="image" src="https://github.com/user-attachments/assets/71149f34-4446-45ae-88e0-31dd9105dc7e" />
+
+
+5. Load_board()
+   
+   5.1 flowchart
+
+   <img width="293" height="537" alt="image" src="https://github.com/user-attachments/assets/88017fbc-600b-446d-b8e7-d17dab6184f8" />
+   <img width="567" height="537" alt="image" src="https://github.com/user-attachments/assets/1a6fb0e6-0d9c-41a7-95f6-06ddcd27ed45" />
+
+
+
+
    
    
 
