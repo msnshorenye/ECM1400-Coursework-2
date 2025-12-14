@@ -184,6 +184,7 @@ Module: flask_server_ai_player.py
     4.1 Flowchart
 
     <img width="556" height="739" alt="image" src="https://github.com/user-attachments/assets/71149f34-4446-45ae-88e0-31dd9105dc7e" />
+    <img width="293" height="537" alt="image" src="https://github.com/user-attachments/assets/88017fbc-600b-446d-b8e7-d17dab6184f8" />
 
     4.2 Code function On click it sends the current board in a json format return {board: the board} and then it is saved as an item in javascript local storage not a json file as a file is not able to be loaded into 
  
