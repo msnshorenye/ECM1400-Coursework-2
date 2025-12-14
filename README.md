@@ -131,6 +131,18 @@ This function was more of a debugging function while I was still developing the 
 5. Ai_player_Move
 
 
+   5.1 Flowchart
+
+   <img width="582" height="705" alt="image" src="https://github.com/user-attachments/assets/7fef8796-5263-40dc-836c-64d08077d7e3" />
+   <img width="543" height="700" alt="image" src="https://github.com/user-attachments/assets/48182ef3-6f3c-43e2-98d8-f26241a58a73" />
+
+
+   5.2 code function
+       checks through every space on the board it sees how many directions one counter can flank keeping them in an indvidual list to each direction the largest coordinate from that list is compared to the largest move so far in the entire board if it is larger it will become the coordinates to change if not it moves on to checking the next space after every space has been checked the longest list of coordinates are turned into the ai discs.
+
+   5.3 Explanation The idea of the ai is that it picks the move that flips the most counters possible although there is a small issue of it not flipping multiple directions at once but other than that in single directions it works well in automating the second player.
+
+
 6. Main program
     
  
@@ -140,7 +152,7 @@ This function was more of a debugging function while I was still developing the 
 
    6.2 Code Function It calls the main game loop function and then takes the finished game board once the game has been played and puts it through the check win function to output the winner finishing the game.
 
-   6.3 This is the code that actually runs the instance of the  game the players actually play when the python module is run
+   6.3 This is the code that actually runs the instance of the  game the players actually play when the python module is run 
 
 
 Module: flask_server_ai_player.py
@@ -152,6 +164,8 @@ Module: flask_server_ai_player.py
 
    <img width="182" height="340" alt="image" src="https://github.com/user-attachments/assets/8894d2f7-4143-493c-998e-9de83bef9927" />
 
+
+    1.2 Code Function Intialises a board
    
 2. get_move()
 
@@ -159,7 +173,7 @@ Module: flask_server_ai_player.py
 <img width="548" height="681" alt="Screenshot 2025-12-13 235514" src="https://github.com/user-attachments/assets/d1e5dff3-bba7-46f4-8876-0e269594a79d" />
 <img width="601" height="748" alt="Screenshot 2025-12-13 235553" src="https://github.com/user-attachments/assets/000319ed-461e-43ee-bd6a-067ba196800b" />
 
-
+2.2 Code function 
 
 4.  save_board()
 
