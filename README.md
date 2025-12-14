@@ -194,7 +194,7 @@ Module: flask_server_ai_player.py
    5.1 flowchart
 
    <img width="293" height="537" alt="image" src="https://github.com/user-attachments/assets/88017fbc-600b-446d-b8e7-d17dab6184f8" />
-   <img width="567" height="537" alt="image" src="https://github.com/user-attachments/assets/1a6fb0e6-0d9c-41a7-95f6-06ddcd27ed45" />
+   
 
    5.2 Code Function
       Gets the saved plain text version saved in the template converts it into a useable format and uses json loads to return it back to the format of a game board in my game. The template is then rerendered with this new game board. 
