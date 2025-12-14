@@ -174,7 +174,9 @@ Module: flask_server_ai_player.py
 <img width="548" height="681" alt="Screenshot 2025-12-13 235514" src="https://github.com/user-attachments/assets/d1e5dff3-bba7-46f4-8876-0e269594a79d" />
 <img width="601" height="748" alt="Screenshot 2025-12-13 235553" src="https://github.com/user-attachments/assets/000319ed-461e-43ee-bd6a-067ba196800b" />
 
-2.2 Code function 
+2.2 Code function It gets the url on the tile button click and request the boards X and y values from that tile It uses those coordinates
+
+2.3 It plays the game with the coordinates the user has clicked on then it plays the AI players turn If both cant play the game ends. This means both the player and the ai 
 
 4.  save_board()
 
@@ -185,7 +187,7 @@ Module: flask_server_ai_player.py
 
     4.2 Code function On click it sends the current board in a json format return {board: the board} and then it is saved as an item in javascript local storage not a json file as a file is not able to be loaded into 
  
-
+    4.3 It is function that returns the current game board in json when the button is clicked despite the troubles with recieving the board back in the correct form it now works entirely correctly.
 5. Load_board()
    
    5.1 flowchart
@@ -194,10 +196,10 @@ Module: flask_server_ai_player.py
    <img width="567" height="537" alt="image" src="https://github.com/user-attachments/assets/1a6fb0e6-0d9c-41a7-95f6-06ddcd27ed45" />
 
    5.2 Code Function
-      Gets the saved plain text version saved in the template converts it into a useable format
+      Gets the saved plain text version saved in the template converts it into a useable format and uses json loads to return it back to the format of a game board in my game. The template is then rerendered with this new game board. 
 
    5.3 Intially I tried to use Node.js to write and save to files but reading and writing was not accessible for the website GUI. I had to instead Use Jsonify to save the string in Local storage (Not just a plain Json file thats accessed through Node.js a Json  then instead of Node,js use text with a json header
-   The html has to be updated to the current one with the board once the text has been
+   The html has to be updated to the current one with the board once the text has been given back to the flask server then on 
 
 
    
