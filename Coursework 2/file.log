@@ -103,3 +103,33 @@ Traceback (most recent call last):
     x = int(input('enter the x coordinate you want'))
        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ValueError: invalid literal for int() with base 10: 'a'
+2025-12-14 18:20:28,678 DEBUG A DEBUG Message
+2025-12-14 18:20:28,679 INFO An INFO
+2025-12-14 18:20:28,679 WARNING A WARNING
+2025-12-14 18:20:28,679 ERROR An error
+2025-12-14 18:20:28,679 ERROR an exception
+NoneType: None
+2025-12-14 18:20:28,679 CRITICAL A message of CRITICAL severity
+2025-12-14 18:20:28,704 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-14 18:20:28,704 INFO [33mPress CTRL+C to quit[0m
+2025-12-14 18:20:44,255 DEBUG A DEBUG Message
+2025-12-14 18:20:44,255 INFO An INFO
+2025-12-14 18:20:44,255 WARNING A WARNING
+2025-12-14 18:20:44,255 ERROR An error
+2025-12-14 18:20:44,255 ERROR an exception
+NoneType: None
+2025-12-14 18:20:44,255 CRITICAL A message of CRITICAL severity
+2025-12-14 18:20:44,265 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-14 18:20:44,265 INFO [33mPress CTRL+C to quit[0m
+2025-12-14 18:21:11,391 DEBUG A DEBUG Message
+2025-12-14 18:21:11,391 INFO An INFO
+2025-12-14 18:21:11,391 WARNING A WARNING
+2025-12-14 18:21:11,391 ERROR An error
+2025-12-14 18:21:11,391 ERROR an exception
+NoneType: None
+2025-12-14 18:21:11,391 CRITICAL A message of CRITICAL severity
+2025-12-14 18:21:11,400 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-14 18:21:11,400 INFO [33mPress CTRL+C to quit[0m
