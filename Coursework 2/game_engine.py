@@ -428,6 +428,7 @@ def ai_player_move(board, colour = "Light",  size = 8):
                                     go = False
                                     all_possible_flips_list.append(to_flip_8)
                     length_flip = 0 #sets up a variable which tracks the length of each direction of a flip
+                     to_flip = []
                     for i in all_possible_flips_list: #iterates through the list of coordinates of all possible moves
                         if len(i) > length_flip: #if the current length of coordinates is longer than the longest so far
                             length_flip = len(i) #then that is the new longest flip length
@@ -565,4 +566,5 @@ def check_win(game_board, size = 8):
 if __name__ == "__main__":
 
    game = simple_game_loop()
+
    check_win(game)
