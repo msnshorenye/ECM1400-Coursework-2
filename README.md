@@ -203,6 +203,8 @@ Module: flask_server_ai_player.py
    The html has to be updated to the current one with the board once the text has been given back to the flask server then on 
 
 
+depository handele for the project https://github.com/msnshorenye/ECM1400-Coursework-2 
+
    
    
 
